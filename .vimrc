@@ -55,3 +55,6 @@ nnoremap <leader>s :mksession<CR>
 " NERD tree Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
 
+if has("gui_running")
+  set lines=999 columns=999
+endif
